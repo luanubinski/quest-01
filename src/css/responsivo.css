@@ -1,0 +1,133 @@
+@media (max-width: 1024px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info img{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .info .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .informacoes .botao{
+        margin-top: 25px;
+        margin-bottom: 50px
+    }
+
+    
+    footer .redes{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+
+@media (max-width: 638px){
+    header .logo{
+        width: 150px;
+        margin-top: 30px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-modelo img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .info .informacoes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .info .informacoes h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .info .informacoes p{
+        font-weight: 200;
+    }
+
+    .informacoes .botao{
+        margin-top: 25px;
+        margin-bottom: 50px
+    }
+
+
+
+    footer .redes{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        }
+}
+
+@media (max-width: 425px){
+
+    header .logo{
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-modelo img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .info .informacoes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .info .informacoes h1{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .info .informacoes p{
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .informacoes .botao{
+        margin-top: 25px;
+        margin-bottom: 50px
+    }
+
+
+
+    footer .redes{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin:0px
+        }
+
+}

@@ -62,6 +62,7 @@ header .logo{
     align-items: center;
     height: 50px;
     width: 200px;
+    color:  hsl(257, 40%, 49%);
     background-color: aliceblue;
     border-radius: 50px;
     margin-top: 25px;
